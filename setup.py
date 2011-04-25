@@ -1,3 +1,4 @@
+from setuptools import setup, find_packages
 from distutils.core import setup, Extension
 
 readme_file = open(u'README')
@@ -10,5 +11,10 @@ setup(
     version = "0.1",
     author = 'Dimitris Glezos',
     author_email = 'glezos@indifex.com',
+    install_requires = ["smaz"],
     zip_safe = False,
-    )
+    package_data = {
+        '': ['README', 'LICENSE']
+    },
+    packages = find_packages(),
+)
