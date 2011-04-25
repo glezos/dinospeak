@@ -14,6 +14,7 @@ def test_dinospeak():
         '@kalavros no, δεν είμαι. πρώτη φορά το βλέπω!',
         'Slides from Releasing Extension on PGXN presented at PDXPUG slidesharenetjustatheory',
         '@aethaeth blah.',
+        '@glezos Hello man, how are you?'
     ]
     len_comps = []  # Store length comparisons for statistics at the end
     for d in test_data:

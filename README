@@ -1,13 +1,36 @@
 
-
-Dependencies
-------------
-
-smaz: https://github.com/antirez/smaz
+Dinospeak is a library to encode human language to dinosaur language.
+It is optimized for small strings and aims in preserving punctuation.
 
 
 Running
 -------
 
+Dependencies:
+
+- smaz: https://github.com/antirez/smaz
+
+To see a sample run::
+
   python test.py
-  
+
+
+Examples
+--------
+
+Here's a sample run::
+
+    In:@aethaeth blah.
+    Out: @mawwnawachg hcggggr.
+
+    In:@glezos Hello man, how are you?
+    Out: @wheuaarewmun mrcwmemgwgauw eewca, eacga mmc wmggc?
+
+
+Authors & Credits
+-----------------
+
+Original author: Dimitris Glezos
+
+Thanks to Ios Kaye and Vasilis Georgitzikis for some cool implementation ideas.
+
