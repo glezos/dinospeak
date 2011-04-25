@@ -1,0 +1,13 @@
+
+
+Dependencies
+------------
+
+smaz: https://github.com/antirez/smaz
+
+
+Running
+-------
+
+  python test.py
+  
