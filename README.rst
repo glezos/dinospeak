@@ -9,7 +9,7 @@ You know, in case they come back to life or invade us using dino spaceships.
 Dinospeak is optimized for small strings (eg. micro-blogging) and aims in
 preserving punctuation.
 
-Source code repo: https://bitbucket.org/glezos/dinospeak
+Source code repo: https://github.com/glezos/dinospeak
 
 
 Installing
@@ -29,7 +29,7 @@ install it automatically for you.
 
 Alternatively, grab the source code itself::
 
-  hg clone https://bitbucket.org/glezos/dinospeak
+  git clone git://github.com/glezos/dinospeak.git
 
 
 Running
