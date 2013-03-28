@@ -12,6 +12,26 @@ preserving punctuation.
 Source code repo: https://github.com/glezos/dinospeak
 
 
+Examples
+========
+
+In:  Dinosaur-human alliance for the win.
+Out: amhnceahermrwennw-grehwehhg muachacwaw nu m mnnhh.
+36→50 chr, diff: 138%
+
+In:  @glezos This is absurd! They will devour us right away.
+Out: @wheuaarewmun mnnnaawe ga muncrhmweru! muhmh egwmgrw ncaecgn mne
+mcmneaguhc gmarmm.
+55→83 chr, diff: 150%
+
+In:  @glezos Devouring humanity in progress. Please rule us.
+Out: @wheuaarewmun wachnurhmcueehe mcchagwmmmahwg mh whcngmwcwugu.
+mrcwwnchuguae acnwea mne.
+55→87 chr, diff: 158%
+
+String length comparisons: max: 158%, min: 138%, avg: 149%
+
+
 Installing
 ==========
 
@@ -31,21 +51,9 @@ Alternatively, grab the source code itself::
 
   git clone git://github.com/glezos/dinospeak.git
 
-
-Running
-=======
-
-There's a test file which produces some results from the library::
+To run the tests::
 
     $ python <path-to-dinospeak>/test.py
-
-    In:@aethaeth blah.
-    Out: @mawwnawachg hcggggr.
-
-    In:@glezos Hello man, how are you?
-    Out: @wheuaarewmun mrcwmemgwgauw eewca, eacga mmc wmggc?
-
-    String length comparisons: max: 274%, min: 140%, avg: 217%
 
 
 Authors & Credits
