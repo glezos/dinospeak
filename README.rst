@@ -7,7 +7,9 @@ Dinospeak is a library to encode human language to dinosaur language.
 You know, in case they come back to life or invade us using dino spaceships.
 
 Dinospeak is optimized for small strings (eg. micro-blogging) and aims in
-preserving punctuation.
+preserving punctuation. The implementation is very simple and naive. We
+plan to improve it after the first encounter with the species and further
+testing.
 
 Source code repo: https://github.com/glezos/dinospeak
 
@@ -15,21 +17,23 @@ Source code repo: https://github.com/glezos/dinospeak
 Examples
 ========
 
-In:  Dinosaur-human alliance for the win.
-Out: amhnceahermrwennw-grehwehhg muachacwaw nu m mnnhh.
-36→50 chr, diff: 138%
+Here are the output of the sample tests::
 
-In:  @glezos This is absurd! They will devour us right away.
-Out: @wheuaarewmun mnnnaawe ga muncrhmweru! muhmh egwmgrw ncaecgn mne
-mcmneaguhc gmarmm.
-55→83 chr, diff: 150%
+    In:  Dinosaur-human alliance for the win.
+    Out: amhnceahermrwennw-grehwehhg muachacwaw nu m mnnhh.
+    36→50 chr, diff: 138%
 
-In:  @glezos Devouring humanity in progress. Please rule us.
-Out: @wheuaarewmun wachnurhmcueehe mcchagwmmmahwg mh whcngmwcwugu.
-mrcwwnchuguae acnwea mne.
-55→87 chr, diff: 158%
+    In:  @glezos This is absurd! They will devour us right away.
+    Out: @wheuaarewmun mnnnaawe ga muncrhmweru! muhmh egwmgrw ncaecgn mne
+    mcmneaguhc gmarmm.
+    55→83 chr, diff: 150%
 
-String length comparisons: max: 158%, min: 138%, avg: 149%
+    In:  @glezos Devouring humanity in progress. Please rule us.
+    Out: @wheuaarewmun wachnurhmcueehe mcchagwmmmahwg mh whcngmwcwugu.
+    mrcwwnchuguae acnwea mne.
+    55→87 chr, diff: 158%
+
+    String length comparisons: max: 158%, min: 138%, avg: 149%
 
 
 Installing
