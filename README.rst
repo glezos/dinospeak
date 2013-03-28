@@ -17,7 +17,7 @@ Source code repo: https://github.com/glezos/dinospeak
 Examples
 ========
 
-Here are the output of the sample tests::
+Here is the output of the sample tests::
 
     In:  Dinosaur-human alliance for the win.
     Out: amhnceahermrwennw-grehwehhg muachacwaw nu m mnnhh.
